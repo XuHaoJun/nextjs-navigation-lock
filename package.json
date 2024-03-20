@@ -1,0 +1,40 @@
+{
+  "name": "@xuhaojun/nextjs-navigation-lock",
+  "version": "0.0.1",
+  "description": "nextjs appDir navigation lock",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "prepare": "npm run compile",
+    "pretest": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuHaoJun/nextjs-navigation-lock.git"
+  },
+  "keywords": [
+    "nextjs",
+    "appDir",
+    "navigation"
+  ],
+  "author": "xuhaojun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/XuHaoJun/nextjs-navigation-lock/issues"
+  },
+  "homepage": "https://github.com/XuHaoJun/nextjs-navigation-lock#readme",
+  "peerDependencies": {
+    "next": "14.x"
+  },
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "@types/react": "^18.2.67",
+    "next": "^14.1.4",
+    "typescript": "^5.4.2"
+  }
+}

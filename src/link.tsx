@@ -3,7 +3,7 @@
 import React from "react";
 import LinkRaw from "next/link";
 import { forwardRef, useContext } from "react";
-import { RouteChangeContext } from "..";
+import { RouteChangeContext } from ".";
 
 export const Link = forwardRef<LinkType, any>(
   ({ children, onClick, ...props }, ref) => {

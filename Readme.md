@@ -9,9 +9,7 @@ npm install @xuhaojun/nextjs-navigation-lock
 ## Quickstart
 
 ```jsx
-import { useNavigationLock } from "@xuhaojun/nextjs-navigation-lock";
-import Link from "@xuhaojun/nextjs-navigation-lock/link";
-import { useRouter } from "@xuhaojun/nextjs-navigation-lock/navigation";
+import { useNavigationLock, Link, useRouter } from "@xuhaojun/nextjs-navigation-lock";
 
 function Component() {
   const [isDirty, setIsDirty] = useState(false);

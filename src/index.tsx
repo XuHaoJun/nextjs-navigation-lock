@@ -37,7 +37,7 @@ export const useNavigationLock = (lock: boolean, nextTips?: string) => {
   }, [setTips, update]);
 };
 
-export const RouteChangeProvider2: FC<
+export const RouteChangeProvider: FC<
   PropsWithChildren<{ defaultTips?: string }>
 > = (props) => {
   const { children } = props;
@@ -123,4 +123,4 @@ export type RouteChangeInstance = [string | undefined, (tips?: string) => void];
 
 export { RouteChangeContext };
 
-export default RouteChangeProvider2;
+export default RouteChangeProvider;

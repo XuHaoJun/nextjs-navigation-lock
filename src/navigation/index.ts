@@ -1,7 +1,7 @@
 import type { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 import { useContext } from "react";
 import { useRouter as useRouterRaw } from "next/navigation";
-import { RouteChangeContext } from ".";
+import { RouteChangeContext } from "..";
 
 export function useRouter(): AppRouterInstance {
   const [tips] = useContext(RouteChangeContext);
